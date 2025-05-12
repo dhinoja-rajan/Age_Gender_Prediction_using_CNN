@@ -1,11 +1,11 @@
-# 🧠 Age and Gender Detection Project using CNN, FastAPI, and Streamlit
+# 🧠 Age and Gender Prediction Project using CNN, FastAPI, and Streamlit
 
 ---
 
 ## 📁 Project Structure
 
 ```
-📁 Age-Gender-Detection-Project (Root)
+📁 Age-Gender-Prediction-Project (Root)
 │
 ├── 📂 backend         → FastAPI backend server
 │   └── main.py
