@@ -30,13 +30,11 @@
 
 ---
 
-## 📦 Step-0: Download Data & Install Dependencies
+## 📦 Step-0: Install Dependencies
 
 Run the script below to download the dataset:
 
 ```bash
-python download_data.py
-
 pip install -r requirements.txt
 ```
 
