@@ -13,7 +13,7 @@ def parse_filename(filename):
 
 print("🔄 Starting preprocessing...")
 IMG_SIZE = (224, 224)
-dataset_path = "D:/AI ENGINEERING/Datasets/CNN/UTKFace_inthewild/part1"
+dataset_path = "D:/AI ENGINEERING/Datasets/CNN/UTKFace_Age_Gender"
 images, ages, genders = [], [], []
 
 files = os.listdir(dataset_path)
