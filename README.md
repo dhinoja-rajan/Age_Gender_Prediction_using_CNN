@@ -4,7 +4,7 @@
 
 ## 📁 Project Structure
 
-```
+```bash
 📁 Age-Gender-Detection-Project (Root)
 │
 ├── 📂 backend         → FastAPI backend server
@@ -30,9 +30,13 @@
 
 ---
 
-## ✅ Step-0: Install Dependencies
+## 📦 Step-0: Download Data & Install Dependencies
 
-```
+Run the script below to download the dataset:
+
+```bash
+python download_data.py
+
 pip install -r requirements.txt
 ```
 
@@ -50,7 +54,7 @@ pip install -r requirements.txt
 
 📂 Script: `model/preprocess.py`
 
-```
+```bash
 cd model
 python preprocess.py
 ```
@@ -75,7 +79,7 @@ python preprocess.py
 
 📂 Script: `model/train_model.py`
 
-```
+```bash
 cd model
 python train_model.py
 ```
@@ -91,7 +95,7 @@ python train_model.py
 
 📂 File: `backend/main.py`
 
-```
+```bash
 cd backend
 uvicorn main:app --reload
 ```
@@ -116,7 +120,7 @@ uvicorn main:app --reload
 
 📂 File: `frontend/app.py`
 
-```
+```bash
 cd frontend
 streamlit run app.py
 ```
